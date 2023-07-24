@@ -3,6 +3,7 @@ body{
     padding: 0;
     max-width: 830px;
     font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 header{
     display: flex;
@@ -60,7 +61,7 @@ h1{
     margin-bottom: 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,.2);
     border-radius: 5px;
-    column-count: 2;
+    column-count: 3;
     text-align: left;
     color: #777;
 /*    overflow: hidden; */
@@ -94,6 +95,7 @@ h1{
 .noticia a:hover{
     background: #1e3799;
 } */
+/*
 .fotox1{
     border-style: solid;
     border-color: yellow;
@@ -133,7 +135,7 @@ h1{
 .fotox5{
 /*    border-style: solid;
     border-color: red; */
-    top: -520px; 
+/*    top: -520px; 
     left: 380px;
     position: relative;
     z-index: 7;
@@ -166,8 +168,65 @@ h1{
     z-index: 10;
     transform: rotate(20deg);
 }
-                    
-                                    
+*/                    
+
+.cabpag2{
+    text-align: center;
+    padding: 20px;
+}
+.pag2{
+    column-count: 3;
+    column-gap: 5px;
+    column-rule: 2px solid lightblue;
+}
+.pag2 p{
+    text-align: left;
+    padding-top: 10px;
+
+}
+.assger{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pag2img{
+    padding: 0px;
+    width: 90px;
+    height: 120px;
+    float: left;
+    margin: 5px 10px;
+    border-color: cadetblue;
+    border-style: solid;
+}
+.subcabpag21{
+    text-align: center;
+}
+.subcabpag2{
+    text-align: center;
+    padding-top: 40px;
+    clear: left;
+}
+.pag2 li{
+    padding-top: 10px;
+    clear: left;
+}
+.apresenta h2{
+    text-align: center;
+}
+.apresenta{
+    margin-left: 5px;
+    text-align: left;
+    padding-top: 30px;
+    clear: left;
+}
+
+.logomaos{
+    padding: 10px;
+    width: auto;
+    height: auto;
+
+}
                                         
 
 footer{
@@ -183,9 +242,13 @@ footer .name{
 footer .email{
     color:#1e3799;
 }
-@media screen and (max-width:768px) {
+
+
+
+
+@media screen and (max-width:720px) {
     header .logo{
-        display: block;
+        display: flex;
         margin: auto;
         padding: 0;
     }
@@ -197,6 +260,10 @@ footer .email{
         display: none;
     }
     .pdfimage{
+        width: 100%;
+        height: auto;
+    }
+    .fotox0{
         width: 100%;
         height: auto;
     }
@@ -266,4 +333,105 @@ footer .email{
         width: 100%;
     }
     footer{ line-height: 1.1;}
+}
+.pag2{
+    column-count: 2;
+    column-gap: 5px;
+    column-rule: 2px solid lightblue;
+}
+
+@media screen and (max-width:450px) {
+    header .logo{
+        display: flex;
+        margin: auto;
+        padding: 0;
+    }
+    header .titulo{
+        width: 100%;
+        height: auto;
+    }
+    header .logo2{
+        display: none;
+    }
+    .pdfimage{
+        width: 100%;
+        height: auto;
+    }
+    .fotox0{
+        width: 100%;
+        height: auto;
+    }
+    .fotox1{
+        transform: none;
+        width: 100%;
+        height: auto;
+    }
+    .fotox2{
+        transform: none;
+        width: 100%;
+        height: auto;
+    }
+    .fotox3{
+        transform: none;
+        width: 100%;
+        height: auto;
+    }
+    .fotox4{
+        transform: none;
+        width: 100%;
+        height: auto;
+    }
+    .fotox5{
+        transform: none;
+        width: 100%;
+        height: auto;
+    }
+    .fotox6{
+        transform: none;
+        width: 100%;
+        height: auto;
+    }
+    .fotox7{
+        transform: none;
+        width: 100%;
+        height: auto;
+    }
+    .fotox8{
+        transform: none;
+        width: 100%;
+        height: auto;
+    }
+    .container{
+        max-width: 90%;
+    }
+    .noticia{
+    /*    flex-direction: column; */ 
+    /*  ou   flex-wrap: wrap; */ 
+    column-count: 1;
+    }
+/*    .noticia img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    } */
+    .noticia h2{
+        font-size: 20px;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .noticia p{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .noticia a{
+        width: 100%;
+    }
+    footer{ line-height: 1.1;}
+    .pag2{
+        column-count: 1;
+        /*column-gap: 5px;
+        column-rule: 2px solid lightblue;*/
+    }
+
+
 }
