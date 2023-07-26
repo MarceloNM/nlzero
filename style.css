@@ -62,7 +62,7 @@ h1{
     margin-bottom: 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,.2);
     border-radius: 5px;
-    column-count: 3;
+    column-count: 2;
     text-align: left;
     color: #777;
 /*    overflow: hidden; */
@@ -176,9 +176,9 @@ h1{
     padding: 20px;
 }
 .pag2{
-/*    column-count: 3; */
-    column-gap: 5px;
-    column-rule: 2px solid lightblue;
+    column-count: 3;
+    /*column-gap: 5px; */
+    /*column-rule: 2px solid lightblue;*/
 }
 .pag2 p{
     text-align: left;
