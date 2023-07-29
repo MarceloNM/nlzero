@@ -3,214 +3,91 @@ body{
     padding: 0;
     max-width: 830px;
     font-family: Arial, sans-serif;
+    font-size: medium;
     line-height: 1.6;
-    color: #777;
+    color: #555;
 }
 header{
     display: flex;
     align-items: center;
     background-color: white;
-    color: #fff;
     padding: 30px 20px 0px 10px;
-   /* text-align: center;*/
 }
 header .logo{
     padding: 5px 40px 50px 10px;
 }
-/*header .titulo{
-    width: 100%;
-    height: auto;
-} */
 header .logo2{
     padding: 5px 5px 5px 40px;
 }
 .edicao{
     text-align: center;
-    padding: 10px 10px;
-    color: #777;
-}
-h1{
-    margin: 0;
-    font-size: 30px;
-}
-.capa{
-    display: flex;
-    align-items: center;
+    padding: 5px;
+    color: #555;
 }
 .container{
-/*    margin: 0 auto; */
-/*    max-width: 800px; */
-/*    padding: 20px; */
-/*    width: 90%; */
-/*    margin: 10px; */
-    display: flex;
-    flex-direction: column;
-/*    text-align: center; */
-/*    justify-content: center; */
-/*    align-items: center;    */
+    background-color: white;
 }
-.noticias{
+.paginas{
     list-style: none;
-/*    margin: 0;
-    padding: 0; */
 }
-.noticia{
-/*    display: flex;
-    flex-direction: column; */
-/*    align-items: center; */
+.capa{
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    border-radius: 5px;
+
+}
+.entrepag{
+    text-align: center;
+}
+.pagina{
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    padding: 10px 10px 20px 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,.2);
     border-radius: 5px;
     column-count: 2;
-    text-align: left;
-    color: #777;
-/*    overflow: hidden; */
+    text-align: left; 
 }
-/*.noticia img{
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-} */
-.noticia h2{
-    margin: 10px;
-    font-size: 20px;
-    padding: 10px;
-/*    min-width: 200px; */
-}
-.noticia p{
-    margin: 0;
-    padding: 10px;
-}
-/*.noticia a{
-    background: #0c2461;
-    color: #fff;
-    min-width: 150px;
-    padding: 10px;
-    text-decoration: none;
-    text-transform: uppercase;
+.subcab{
     text-align: center;
-    font-size: 14px;
-    transition: background 0.3 ease;
-} 
-.noticia a:hover{
-    background: #1e3799;
-} */
-/*
-.fotox1{
-    border-style: solid;
-    border-color: yellow;
-    top: 0px; 
-    left: 20px;
-    position: relative;
-    z-index: 4;
-    transform: rotate(-10deg);
-}
-.fotox2{
-    border-style: solid;
-    border-color: yellow;
-    top: 0px; 
-    left: -20px;
-    position: relative;
-    z-index: 5;
-    transform: rotate(15deg);
-}
-.fotox3{
-    border-style: solid;
-    border-color: cyan;
-    top: -120px; 
-    left: -110px;
-    position: relative;
-    z-index: 6;
-    transform: rotate(-90deg);
-}
-.fotox4{
-    border-style: solid;
-    border-color: red;
-    top: -100px; 
-    left: -260px;
-    position: relative;
-    z-index: 1;
-    transform: rotate(0deg);
-}
-.fotox5{
-/*    border-style: solid;
-    border-color: red; */
-/*    top: -520px; 
-    left: 380px;
-    position: relative;
-    z-index: 7;
-    transform: rotate(0deg);
-}
-.fotox6{
-    border-style: solid;
-    border-color: lightgreen;
-    top: -320px; 
-    left: -320px;
-    position: relative;
-    z-index: 8;
-    transform: rotate(-35deg);
-}
-.fotox7{
-    border-style: solid;
-    border-color: green;
-    top: -500px; 
-    left: 200px; 
-    position: relative;
-    z-index: 9;
-    transform: rotate(0deg);
-}
-.fotox8{
-    border-style: solid;
-    border-color: orange;
-    top: -550px; 
-    left: 0px;
-    position: relative;
-    z-index: 10;
-    transform: rotate(20deg);
-}
-*/                    
-
-.cabpag2{
-    text-align: center;
-    padding: 20px;
-}
-.pag2{
-    column-count: 3;
-    /*column-gap: 5px; */
-    /*column-rule: 2px solid lightblue;*/
-}
-.pag2 p{
-    text-align: left;
+    margin-top: 10px;
     padding-top: 10px;
-
+    clear: left;
+}
+.subcab2{
+    text-align: center;
+    padding-top: 20px;
+    clear: left;
 }
 .assger{
     list-style: none;
     margin: 0;
     padding: 0;
+    line-height: 1;
 }
-
+.assger li{
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    clear: left;
+}
+.funcao{
+    font-weight: bold;
+}
+.nome{
+    font-size: large;
+}
+.origem{
+    font-style: italic;
+}
 .pag2img{
     padding: 0px;
     width: 90px;
-    height: 120px;
+    height: 110px;
     float: left;
-    margin: 5px 10px;
+    margin: 6px 10px;
     border-color: cadetblue;
     border-style: solid;
-}
-.subcabpag21{
-    text-align: center;
-}
-.subcabpag2{
-    text-align: center;
-    padding-top: 40px;
-    clear: left;
-}
-.pag2 li{
-    padding-top: 10px;
-    clear: left;
 }
 .apresenta h2{
     text-align: center;
@@ -221,21 +98,74 @@ h1{
     padding-top: 30px;
     clear: left;
 }
-
 .logomaos{
-    padding: 10px;
+    padding: 10px 0px 0px 40px;
     width: auto;
     height: auto;
-
+    align-items: center;
 }
-                                        
+.autor{
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    clear: left;
+}
+.alerta{
+    width: auto;
+    border: 10px solid red;
+    text-align: center;
+    background-color: yellow;
+}
+.colimage{
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+}
+.colicone{
+    padding: 0px;
+    margin: opx;
+}
+.gratis{
+    color: green;
+}
+.realcetexto{
+    background-color: yellow;
+}
+.aviso{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: blue;
+}
+.titulinterm{
+    font-size: large;
+    font-weight: bold;
+    padding: 15px 0 0 0
+}
+.lisemestilo{
+    padding-top: 5px;
+    list-style: none;
+}
+.lisemestilo li{
+    margin: 0;
+    padding: 0 25px 0 0;
+}
+.listacol{
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+.pdfimage{
+    width: 100%;
+    height: auto;
+}
 
 footer{
-/*    max-width: 800px; */
-    padding: 10px;
-    line-height: 0.4;
-    background-color: yellow;
-    text-align: center;
+        margin-left: 35px;
+        padding: 10px;
+        line-height: 0.4;
+        background-color: yellow;
+        text-align: center;
 }
 footer .name{
     color: blue;
@@ -245,194 +175,50 @@ footer .email{
 }
 
 
-
-
 @media screen and (max-width:768px) {
     header .logo{
-        display: flex;
+        display: block;
         margin: auto;
         padding: 0;
     }
     header .titulo{
-        width: 100%;
+        width: 70%;
         height: auto;
     }
     header .logo2{
         display: none;
     }
-    .pdfimage{
-        width: 100%;
-        height: auto;
+
+    footer{
+        font-size: small;
+        line-height: 1.1;
     }
-    .fotox0{
-        width: 100%;
-        height: auto;
-    }
-    .fotox1{
-        transform: none;
-        width: 100%;
-        height: auto;
-    }
-    .fotox2{
-        transform: none;
-        width: 100%;
-        height: auto;
-    }
-    .fotox3{
-        transform: none;
-        width: 100%;
-        height: auto;
-    }
-    .fotox4{
-        transform: none;
-        width: 100%;
-        height: auto;
-    }
-    .fotox5{
-        transform: none;
-        width: 100%;
-        height: auto;
-    }
-    .fotox6{
-        transform: none;
-        width: 100%;
-        height: auto;
-    }
-    .fotox7{
-        transform: none;
-        width: 100%;
-        height: auto;
-    }
-    .fotox8{
-        transform: none;
-        width: 100%;
-        height: auto;
-    }
-    .container{
-        max-width: 90%;
-    }
-    .noticia{
-    /*    flex-direction: column; */ 
-    /*  ou   flex-wrap: wrap; */ 
-    column-count: 1;
-    }
-/*    .noticia img{
-        width: 100%;
-        height: auto;
-        margin-bottom: 10px;
-    } */
-    .noticia h2{
-        font-size: 20px;
-        padding: 0;
-        margin-bottom: 10px;
-    }
-    .noticia p{
-        font-size: 14px;
-        margin-bottom: 10px;
-    }
-    .noticia a{
-        width: 100%;
-    }
-    footer{ line-height: 1.1;}
 }
-.pag2{
-    column-count: 2;
-    column-gap: 5px;
-    column-rule: 2px solid lightblue;
-}
+
+
 
 @media screen and (max-width:480px) {
     header .logo{
-        display: flex;
-        margin: auto;
+        display: block;
+        align-items: center;
         padding: 0;
     }
     header .titulo{
-        width: 100%;
+        width: 70%;
         height: auto;
     }
     header .logo2{
         display: none;
     }
-    .pdfimage{
-        width: 100%;
-        height: auto;
+    .edicao{
+        font-size: small;
     }
-    .fotox0{
-        width: 100%;
-        height: auto;
-    }
-    .fotox1{
-        transform: none;
-        width: 100%;
-        height: auto;
-    }
-    .fotox2{
-        transform: none;
-        width: 100%;
-        height: auto;
-    }
-    .fotox3{
-        transform: none;
-        width: 100%;
-        height: auto;
-    }
-    .fotox4{
-        transform: none;
-        width: 100%;
-        height: auto;
-    }
-    .fotox5{
-        transform: none;
-        width: 100%;
-        height: auto;
-    }
-    .fotox6{
-        transform: none;
-        width: 100%;
-        height: auto;
-    }
-    .fotox7{
-        transform: none;
-        width: 100%;
-        height: auto;
-    }
-    .fotox8{
-        transform: none;
-        width: 100%;
-        height: auto;
-    }
-    .container{
-        max-width: 90%;
-    }
-    .noticia{
-    /*    flex-direction: column; */ 
-    /*  ou   flex-wrap: wrap; */ 
-    column-count: 1;
-    }
-/*    .noticia img{
-        width: 100%;
-        height: auto;
-        margin-bottom: 10px;
-    } */
-    .noticia h2{
-        font-size: 20px;
-        padding: 0;
-        margin-bottom: 10px;
-    }
-    .noticia p{
-        font-size: 14px;
-        margin-bottom: 10px;
-    }
-    .noticia a{
-        width: 100%;
-    }
-    footer{ line-height: 1.1;}
-    .pag2{
+    .pagina{
         column-count: 1;
-        /*column-gap: 5px;
-        column-rule: 2px solid lightblue;*/
     }
-
+    footer{
+        font-size: small;
+        line-height: 1;
+    }
 
 }
