@@ -35,6 +35,7 @@ header .logo2{
 }
 .paginas{
     list-style: none;
+    padding-left: 0;
 }
 .capa{
     margin-bottom: 30px;
