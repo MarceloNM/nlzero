@@ -19,6 +19,12 @@ header .logo{
 header .logo2{
     padding: 5px 5px 5px 40px;
 }
+figure{
+    margin: auto;
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+}
 .edicao{
     text-align: center;
     padding: 5px;
@@ -104,6 +110,14 @@ header .logo2{
     margin: 0px 10px 10px 0;
     max-width: 186px;
 }
+.imgembutida2{
+    width: auto;
+    float: right;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 150px;
+}
 .apresenta h2{
     text-align: center;
 }
@@ -157,6 +171,11 @@ header .logo2{
     font-weight: bold;
     padding: 15px 0 0 0
 }
+.titulo4{
+    padding-top: 20px;
+    font-weight: bold;
+    color: orangered;
+}
 .lisemestilo{
     padding-top: 5px;
     list-style: none;
@@ -176,9 +195,9 @@ header .logo2{
 }
 
 footer{
-        margin-left: 35px;
-        padding: 10px;
-        line-height: 0.4;
+        margin: 0 15px;
+        padding: 5px;
+        line-height: 1.1;
         background-color: yellow;
         text-align: center;
 }
@@ -235,14 +254,11 @@ footer .email{
         font-size: small;
     }
     .pagina{
-        margin-bottom: 5px;
-        padding: 0;
         column-count: 1;
-        text-align: left; 
     }    
     footer{
         font-size: small;
-        line-height: 1;
+        line-height: 1.2;
     }
 
 }
