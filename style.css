@@ -27,6 +27,12 @@ header .logo2{
 .container{
     background-color: white;
 }
+.fotox0{
+    /*height: 900px;
+    width: 800px */
+    width: auto;
+    align-items: center;
+}
 .paginas{
     list-style: none;
 }
@@ -88,6 +94,14 @@ header .logo2{
     margin: 6px 10px;
     border-color: cadetblue;
     border-style: solid;
+}
+.imgembutida{
+    width: auto;
+    float: right;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
 }
 .apresenta h2{
     text-align: center;
@@ -188,7 +202,10 @@ footer .email{
     header .logo2{
         display: none;
     }
-
+    .fotox0{
+        width: 100%;
+        height: auto;
+    }
     footer{
         font-size: small;
         line-height: 1.1;
@@ -198,6 +215,9 @@ footer .email{
 
 
 @media screen and (max-width:480px) {
+    body{
+        margin: 0px;
+    }
     header .logo{
         display: block;
         align-items: center;
@@ -214,8 +234,11 @@ footer .email{
         font-size: small;
     }
     .pagina{
+        margin-bottom: 5px;
+        padding: 0;
         column-count: 1;
-    }
+        text-align: left; 
+    }    
     footer{
         font-size: small;
         line-height: 1;
