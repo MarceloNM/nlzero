@@ -113,10 +113,11 @@ figure{
 .imgembutida2{
     width: auto;
     float: right;
-    border: transparent thin solid;
-    padding: 5px;
-    margin: 0px 10px 10px 0;
-    max-width: 150px;
+    padding: 0px 5px;
+    margin: 0px auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
 .apresenta h2{
     text-align: center;
@@ -138,6 +139,11 @@ figure{
     padding-top: 10px;
     padding-left: 10px;
     clear: left;
+}
+.recolha{
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
 }
 .alerta{
     width: auto;
